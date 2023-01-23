@@ -2,17 +2,22 @@
   margin: 0;
 }
 
-/* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 70px;
-  /* border-radius: 50%; */
-  text-decoration: none;
-  text-align: center;
+.social-media-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* Add a hover effect if you want */
+.social-media-bar a {
+  border: 1px solid #fff;
+}
+
+.social-media-bar a i {
+  color: #fff;
+  font-size: 2em;
+  padding: 10px;
+}
+
 .fa:hover {
   opacity: 0.7;
 }
@@ -62,4 +67,3 @@ h1 {
   font-weight: 700;
   letter-spacing: -1px;
 }
-
